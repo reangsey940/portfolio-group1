@@ -6,12 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+=======
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+>>>>>>> 331efbb45031b0235e9be5740d473281aa75cfcf
 </head>
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <a class="navbar-brand text-primary fw-bold" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
 
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="hero-banner"></section>
@@ -45,10 +74,64 @@
             </div>
         </section>
         <section class="projects"></section>
-        <section class="contact"></section>
-    </main>
-    <footer>
 
+        <section class="contact mt-3">
+
+            <div class="container  bg-dark p-5 rounded-4">
+                <div class="icon fs-3 text-white">
+                    <i class="fa-solid fa-envelope  py-2"></i>
+
+                </div>
+
+
+                <div class="text-card ">
+                    <h2 class="fw-bold">Get in Touch</h2>
+                    <span>Let's work to</span>
+                </div>
+                <div class="label w-50 m-auto mt-4">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Full name</label>
+                    </div>
+                    <div class="form-floating  mt-2">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Email adress</label>
+                    </div>
+                    <div class="form-floating mt-2">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Phone number</label>
+                    </div>
+                    <div class="form-floating mt-2 ">
+                        <textarea class="form-control masege" placeholder="Leave a comment here"
+                            id="floatingTextarea2"></textarea>
+                        <label for="floatingTextarea2">Masege</label>
+                    </div>
+
+
+                </div>
+                <div class="buttom mt-5  ">
+                    <button type="button " class="btn btn-outline-primary w-50 ">Submite</button>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white">
+        <div class="container">
+            <div class="footer-content d-flex justify-content-between align-items-center">
+                <span>Copyright&copy;YourWebsite2026</span>
+                <ul class="d-flex list-unstyled mb-0 gap-3">
+                    <li><a class="mb-0 text-decoration-none" href="">Privacy</a></li>
+                    <li><a class="mb-0 text-decoration-none" href="">Terms</a></li>
+                    <li><a class="mb-0 text-decoration-none" href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
