@@ -1,0 +1,33 @@
+.project {
+    background: #F8F9FA;
+}
+
+.project .project-title h2 {
+    font-size: 40px;
+    background: Linear-gradient(100deg, #1e30f3 40%, #e21e80 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.container-fluid {
+    margin-top: 100px;
+    height: 300px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%)
+}
+
+
+.project-foot .text-foot {
+    font-size: 46px;
+}
+
+/* .project-foot .text-foot {
+   
+        font-size: 48px;
+        font-weight: bold;
+        background: linear-gradient(to right, #3b82f6, #9333ea);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+} */
