@@ -1,48 +1,53 @@
-<<<<<<< HEAD
- .text-card {
-     text-align: center !important;
- }
+.container-contact {
+    background-color: aliceblue;
+}
 
- .masege {
-     height: 200px !important;
- }
+.text-card {
+    text-align: center !important;
+}
 
- .icon {
+.masege {
+    height: 200px !important;
+}
 
-     text-align: center;
+.icon {
 
- }
+    text-align: center;
 
- .icon i {
-     width: 50px !important;
-     border-radius: 10px;
-     background: #2A7B9B;
-     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(37, 41, 82, 1) 18%, rgba(155, 30, 217, 1) 50%, rgba(237, 83, 83, 1) 100%);
- }
+}
 
- .buttom {
+.icon i {
+    width: 50px !important;
+    border-radius: 10px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(37, 41, 82, 1) 18%, rgba(155, 30, 217, 1) 50%, rgba(237, 83, 83, 1) 100%);
+}
 
-     text-align: center;
- }
-=======
-header .navbar .navbar-brand{
+.buttom {
+
+    text-align: center;
+}
+
+=======header .navbar .navbar-brand {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-header .navbar .navbar-nav .nav-link.active{
+
+header .navbar .navbar-nav .nav-link.active {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-header .navbar .navbar-nav .nav-link:hover{
+
+header .navbar .navbar-nav .nav-link:hover {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-footer ul a:hover{
+
+footer ul a:hover {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
->>>>>>> c72d1c5fa05e3bfe9817baaa9663c1c18ab78088
