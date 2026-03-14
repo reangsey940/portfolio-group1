@@ -1,53 +1,52 @@
-<<<<<<< HEAD
-.project {
+.resume{
+    height: 100vh;
+    background: #f8f9fa;
+}
+.resume .content{
+    max-width: 800px;
+    border-radius: 15px;
+    border: 0;
+    padding: 20px 45px;
+    background-color: white;
+}
+.resume .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume .card-body{
+    padding: 0 !important;
+}
+.resume .card {
+    max-width: 800px;
+    border-radius: 15px;
+    border: 0;
+    padding: 20px 15px;
+}
+.resume-title h1{
+  
+    background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+.projects {
     background: #F8F9FA;
 }
-
-.project .project-title h2 {
-    font-size: 40px;
-    background: Linear-gradient(100deg, #1e30f3 40%, #e21e80 60%);
-    -webkit-background-clip: text;
+.projects .project-title h1 {
+    background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
-
-
-
 .container-fluid {
     margin-top: 100px;
     height: 300px;
     background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%)
 }
-
-
 .project-foot .text-foot {
     font-size: 46px;
 }
 
-/* .project-foot .text-foot {
-   
-        font-size: 48px;
-        font-weight: bold;
-        background: linear-gradient(to right, #3b82f6, #9333ea);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    
-} */
-=======
-<<<<<<< HEAD
-.resume{
-    background: #f8f9fa;
-}
-.card{
-    max-width: 800px;
-    border-radius: 15px;
-}
-.resume-title h2{
-  
-background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
-
-}
 =======
 <<<<<<< HEAD
  .text-card {
@@ -90,6 +89,9 @@ header .navbar .navbar-nav .nav-link:hover{
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+footer{
+    padding-block: 1rem;
 }
 footer ul a:hover{
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
