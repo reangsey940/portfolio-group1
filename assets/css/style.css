@@ -1,161 +1,53 @@
-<<<<<<< HEAD
-.project {
-    background: #F8F9FA;
+.container-contact {
+    background-color: aliceblue;
 }
 
-.project .project-title h2 {
-    font-size: 40px;
-    background: Linear-gradient(100deg, #1e30f3 40%, #e21e80 60%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.text-card {
+    text-align: center !important;
 }
 
-
-
-.container-fluid {
-    margin-top: 100px;
-    height: 300px;
-    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%)
+.masege {
+    height: 200px !important;
 }
 
+.icon {
 
-.project-foot .text-foot {
-    font-size: 46px;
-}
-
-/* .project-foot .text-foot {
-   
-        font-size: 48px;
-        font-weight: bold;
-        background: linear-gradient(to right, #3b82f6, #9333ea);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    
-} */
-=======
-<<<<<<< HEAD
-.resume{
-    background: #f8f9fa;
-}
-.card{
-    max-width: 800px;
-    border-radius: 15px;
-}
-.resume-title h2{
-  
-background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
+    text-align: center;
 
 }
-=======
-<<<<<<< HEAD
- .text-card {
-     text-align: center !important;
- }
 
- .masege {
-     height: 200px !important;
- }
+.icon i {
+    width: 50px !important;
+    border-radius: 10px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(37, 41, 82, 1) 18%, rgba(155, 30, 217, 1) 50%, rgba(237, 83, 83, 1) 100%);
+}
 
- .icon {
+.buttom {
 
-     text-align: center;
+    text-align: center;
+}
 
- }
-
- .icon i {
-     width: 50px !important;
-     border-radius: 10px;
-     background: #2A7B9B;
-     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(37, 41, 82, 1) 18%, rgba(155, 30, 217, 1) 50%, rgba(237, 83, 83, 1) 100%);
- }
-
- .buttom {
-
-     text-align: center;
- }
-=======
-header .navbar .navbar-brand{
+=======header .navbar .navbar-brand {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-header .navbar .navbar-nav .nav-link.active{
+
+header .navbar .navbar-nav .nav-link.active {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-header .navbar .navbar-nav .nav-link:hover{
+
+header .navbar .navbar-nav .nav-link:hover {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-footer ul a:hover{
+
+footer ul a:hover {
     background-image: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
->>>>>>> c72d1c5fa05e3bfe9817baaa9663c1c18ab78088
->>>>>>> 331efbb45031b0235e9be5740d473281aa75cfcf
->>>>>>> c3e69cd87d3fdc2f5047ca6d59ec822a74c0e72c
-
-
-/* banner and about me  */
-.hero-banner{
-    padding: 80px 0;
-    margin: auto;
-}
-.card-title{
-    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
-    
-}
-.hero-banner .text{
-    margin-top: 20px;
-   font-size: 28px;
-   color: #858383;
-}
-.hero-banner .gradient-text{
-    font-size: 60px;
-    font-weight: 700;
-    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
-    -webkit-background-clip:text;
-    color: transparent;
-}
-.card-img-box{
-    background:linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
-    border-radius: 30px;
-    padding: 20px;
-    height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-.card-img-box img{
-    position: absolute;
-    transform: skewY(-50%);
-    width: 100%;
-    height:558px;
-    object-fit: cover;
-    border-radius: 20px;
-    
-}
-.about-me{
-    padding:80px 0;
-    text-align:center;
-}
-
-.about-me h2{
-    font-weight:700;
-    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
-    -webkit-background-clip:text;
-    color:transparent;
-}
-
-.about-me .social i{
-    font-size:22px;
-    margin:10px;
-    color: #6f42c1;
-}
-
