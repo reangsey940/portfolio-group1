@@ -1,0 +1,180 @@
+[33mcommit 59acce4f83bd382dbef2c3a70553c49c8007c1ba[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msey[m[33m)[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Sun Mar 15 00:12:55 2026 +0700
+
+    update resume
+
+[33mcommit bc0e90af44800b3803fb0ca7718fbf5304ce0c9d[m
+Merge: 130e677 696dc8f
+Author: reangsey940 <reangsey940@gmail.com>
+Date:   Sat Mar 14 12:54:05 2026 +0700
+
+    Merge pull request #6 from reangsey940/sey
+    
+    Sey
+
+[33mcommit 696dc8ff170ec7b9935abe6d22f6c9b91bc46c84[m
+Merge: 86518cf 130e677
+Author: reangsey <reangsey940@gmail.com>
+Date:   Sat Mar 14 12:52:03 2026 +0700
+
+    adjust section
+
+[33mcommit 86518cffa7b76c19fb43e0575265208cbf0aa487[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Sat Mar 14 12:45:41 2026 +0700
+
+    adjust each section
+
+[33mcommit 130e677918ffc6b8387292836b19ee797a744507[m
+Merge: 5054bc5 ecea020
+Author: reangsey940 <reangsey940@gmail.com>
+Date:   Fri Mar 13 17:03:29 2026 +0700
+
+    Merge pull request #5 from reangsey940/sey
+    
+    Sey
+
+[33mcommit ecea020dfa85f56106cecd7be257380cc0f241ee[m
+Merge: 8abc91e 5054bc5
+Author: reangsey <reangsey940@gmail.com>
+Date:   Fri Mar 13 17:01:46 2026 +0700
+
+    update project
+
+[33mcommit 8abc91e0e9069efb350840a8ca7bc45d264a7715[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Fri Mar 13 16:59:12 2026 +0700
+
+    abc
+
+[33mcommit 5054bc5d42ca4dc7628bf5f950de6d75b57c013a[m
+Merge: c3e69cd af699b5
+Author: chhonsreynuch17-ctrl <chhonsreynuch17@gmail.com>
+Date:   Fri Mar 13 16:52:34 2026 +0700
+
+    Merge pull request #4 from reangsey940/nuch
+    
+    Nuch
+
+[33mcommit af699b536a814ca9c1be6f1d37ef0d9ee339ab00[m
+Merge: e52b431 c3e69cd
+Author: chhonsreynuch17 <chhonsreynuch17@gamil.com>
+Date:   Fri Mar 13 16:50:58 2026 +0700
+
+    Project
+
+[33mcommit c3e69cd87d3fdc2f5047ca6d59ec822a74c0e72c[m
+Merge: 331efbb 055abd3
+Author: panhna pen-ប៉ែន បញ្ញា <penpanha244@gmail.com>
+Date:   Fri Mar 13 16:42:33 2026 +0700
+
+    Merge pull request #3 from reangsey940/panhapen
+    
+    update on resume
+
+[33mcommit e52b431144be64709ab98c49227aa4c373644a15[m
+Author: chhonsreynuch17 <chhonsreynuch17@gamil.com>
+Date:   Fri Mar 13 16:42:16 2026 +0700
+
+    Project
+
+[33mcommit 055abd329780bdc3ae588c92a1d0e73c1c21a4c5[m
+Merge: b6356c4 331efbb
+Author: panhapen <penpanha244@gmail.com>
+Date:   Fri Mar 13 16:41:38 2026 +0700
+
+    update resume2
+
+[33mcommit b6356c4d505c5d174de5b74b6d995d32ba1a5ff5[m
+Author: panhapen <penpanha244@gmail.com>
+Date:   Fri Mar 13 16:34:26 2026 +0700
+
+    update on resume
+
+[33mcommit 331efbb45031b0235e9be5740d473281aa75cfcf[m
+Merge: c72d1c5 917d4b1
+Author: reangsey940 <reangsey940@gmail.com>
+Date:   Fri Mar 13 16:06:06 2026 +0700
+
+    Merge pull request #2 from reangsey940/kimsan
+    
+    update contact
+
+[33mcommit c72d1c5fa05e3bfe9817baaa9663c1c18ab78088[m
+Merge: 7cc4c9d 6ac08d8
+Author: reangsey940 <reangsey940@gmail.com>
+Date:   Fri Mar 13 15:59:08 2026 +0700
+
+    Merge pull request #1 from reangsey940/sey
+    
+    update header & footer
+
+[33mcommit 6ac08d8c8b50b9300e8b8615d322d2bfc5a1fc25[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Fri Mar 13 15:42:38 2026 +0700
+
+    update header & footer
+
+[33mcommit 91b38217d76cf57c8834ff9d919b6eee38542fcc[m
+Merge: f8f47fb 7cc4c9d
+Author: panhapen <penpanha244@gmail.com>
+Date:   Fri Mar 13 15:17:15 2026 +0700
+
+     update on index
+
+[33mcommit 537e16f3d050d1b5824f26c93ca3916966d57dcc[m
+Merge: 926ff02 7cc4c9d
+Author: chhonsreynuch17 <chhonsreynuch17@gamil.com>
+Date:   Fri Mar 13 15:16:15 2026 +0700
+
+    Merge branch 'master' of https://github.com/reangsey940/portfolio-group1 into nuch
+
+[33mcommit f8f47fb9d5e646d53b27095f3263c886e2174905[m
+Author: panhapen <penpanha244@gmail.com>
+Date:   Fri Mar 13 15:15:52 2026 +0700
+
+     update on index
+
+[33mcommit 926ff0229d518942fff43f1decf73d097d1c7427[m
+Author: chhonsreynuch17 <chhonsreynuch17@gamil.com>
+Date:   Fri Mar 13 15:14:50 2026 +0700
+
+    Update on file index
+
+[33mcommit 7cc4c9d7500eb058f487093853f16ea42b892bfd[m[33m ([m[1;32mpanhapen[m[33m, [m[1;32mmaster[m[33m, [m[1;32mkimsan[m[33m)[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Fri Mar 13 14:42:45 2026 +0700
+
+    add-css-style
+
+[33mcommit b49789645783caff74675de74d18caa702a78bc1[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Fri Mar 13 14:35:08 2026 +0700
+
+    add boostrap
+
+[33mcommit 4576dd17fdb6bb58488ad713d15df388e30f2157[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Fri Mar 13 14:30:29 2026 +0700
+
+    add img
+
+[33mcommit 88742cbd0575bc53d597afe42165497437c7418f[m
+Author: reangsey <reangsey940@gmail.com>
+Date:   Fri Mar 13 14:25:19 2026 +0700
+
+    first commit
+
+[33mcommit 917d4b18a420301e67b6f4f2b09abc229da5da0f[m
+Merge: 8e5fc45 c72d1c5
+Author: branch-kimsan <leangkimsan470@gmail.com>
+Date:   Fri Mar 13 09:04:14 2026 +0700
+
+    upadate
+
+[33mcommit 8e5fc4565f619727ac79396091b26db72bf1a24b[m
+Author: branch-kimsan <leangkimsan470@gmail.com>
+Date:   Fri Mar 13 08:45:01 2026 +0700
+
+    update contact
