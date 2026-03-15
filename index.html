@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <style>
@@ -14,8 +15,8 @@
 </style>
 
 <body>
-    <header>
-        <nav id="navbar-example" class="navbar navbar-expand-lg bg-transparent">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-white">
             <div class="container">
                 <a class="navbar-brand text-primary fw-bold" href="#">Portfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,74 +27,177 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#section1">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resume</a>
+                            <a class="nav-link" href="#section2">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#section3">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#scrollspyHeadingcontact">Contact</a>
+                            <a class="nav-link" href="#section4">Contact</a>
                         </li>
-
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-        <section class="hero-banner"></section>
-        <section class="about-me"></section>
-        <section class="resume"></section>
-        <section class="projects"></section>
+    <main data-bs-spy="scroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+        <section class="hero-banner" id="section1">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12 col-md-6">
+                        <div class="card border-0">
+                            <div class="card-content">
+                                <span class="card-title rounded px-2 py-0 text-white">
+                                    DESIGN-DEVELOPMENT-MARKETING
+                                </span>
+                                <p class="text fw-light mb-0">I can help your business to</p>
+                                <h1 class="gradient-text">Get online and grow fast</h1>
+                                <div class="mt-4 gap-4 d-flex">
+                                    <button class="btn btn-primary fw-medium text-white">Resume</button>
+                                    <button class="btn btn-outline-secondary fw-medium">Projects</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card border-0">
+                            <div class="card-inner">
+                                <img class="img-fluid" src="assets/images/profile.png" alt="#">
+                                <div class="card-img-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-me">
+            <div class="container">
+                <h2 class="mb-0">About Me</h2>
+                <p class="mt-1 text-muted">
+                    My name is Start Bootstrap and I help brands grow.
+                </p>
+                <p class="text-muted col-lg-6 mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Fugit dolorum itaque qui unde quisquam consequatur autem.
+                </p>
+                <div class="social mt-3 ">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-github"></i>
+                </div>
+            </div>
+        </section>
+        <section class="resume" id="section2">
+            <div class="container">
+                <div class="resume-title">
+                    <h1 class=" text-center fw-bold mb-5">Resume . Experience</h1>
+                </div>
+                <div class="content border-0 shadow-lg mx-auto bg rounded-4">
+                    <div class="card-body">
+                        <div class="row d-flex">
+                            <div class="col-md-4">
+                                <div class=" card bg-light rounded-4">
+                                    <h6 class="text-primary fw-bold">2019 - Present</h6>
+                                    <p class="fw-medium text-dark mb-0">Web Developer</p>
+                                    <small class="text-secondary d-block">Stark Industries</small>
+                                    <small class="text-secondary">Los Angeles, CA</small>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <p class="text-muted py-4 mb-0">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                        laudantium,
+                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis
+                                        corporis sed
+                                        aliquam non voluptate corrupti excepturi maxime porro fuga.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="section3">
+            <div class="container">
+                <div class="project-title text-center">
+                    <h1 class="fw-bold mb-5">Projects</h1>
+                </div>
+                <div class="project-body">
+                    <div class="card w-50 border-0 mx-auto shadow">
+                        <div class="row g-0">
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project Name 1</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        doloribus blanditiis vitae velit. Labore tempora temporibus dolorum vitae velit.
+                                        Labore tempora temporibus.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <img src="https://placehold.co/300x400" class="img-fluid rounded-end" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <div class="project-foot d-flex flex-column justify-content-center align-items-center">
+                    <h2 class=" text-foot fw-bold  text-white">Let's build something together</h2>
+                    <button type="button" class="btn bg-transparent border py-2 px-5 mt-2 rounded"> <a href="#"
+                            class="nav-link text-white">Contact me</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="contact mt-3" id="section4">
+            <div class="container p-5 rounded-4">
+                <div class="form-submit">
+                    <div class="icon fs-3 text-white">
+                        <i class="fa-solid fa-envelope  py-2"></i>
+                    </div>
+                    <div class="text-card ">
+                        <h2 class="fw-bold">Get in Touch</h2>
+                        <span>Let's work together!</span>
+                    </div>
+                    <div class="label w-50 m-auto mt-4">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Full name</label>
+                        </div>
+                        <div class="form-floating  mt-2">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Email adress</label>
+                        </div>
+                        <div class="form-floating mt-2">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Phone number</label>
+                        </div>
+                        <div class="form-floating mt-2 ">
+                            <textarea class="form-control message" placeholder="Leave a comment here"
+                                id="floatingTextarea2"></textarea>
+                            <label for="floatingTextarea2">Masege</label>
+                        </div>
+                    </div>
+                    <div class="buttom mt-5  ">
+                        <button type="button " class="btn btn-outline-primary w-50 ">Submite</button>
+                    </div>
 
-        <section id="scrollspyHeadingcontact" class="contact c mt-3">
-
-            <div class="container container-contact p-5 rounded-4">
-                <div class="icon fs-3 text-white">
-                    <i class="fa-solid fa-envelope  py-2"></i>
 
                 </div>
-
-                <div class="text-card ">
-                    <h2 class="fw-bold">Get in Touch</h2>
-                    <span>Let's work to</span>
-                </div>
-                <div class="label w-50 m-auto mt-4">
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Full name</label>
-                    </div>
-                    <div class="form-floating  mt-2">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Email adress</label>
-                    </div>
-                    <div class="form-floating mt-2">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Phone number</label>
-                    </div>
-                    <div class="form-floating mt-2 ">
-                        <textarea class="form-control masege" placeholder="Leave a comment here"
-                            id="floatingTextarea2"></textarea>
-                        <label for="floatingTextarea2">Masege</label>
-                    </div>
-
-
-                </div>
-                <div class="buttom mt-5  ">
-                    <button type="button "
-                        class="btn btn-outline-dark btn-primary fw-bold text-white   w-25 ">Submite</button>
-                </div>
-
-
             </div>
         </section>
     </main>
-    <footer class="bg-white m-3">
+    <footer class="bg-white sticky-bottom">
         <div class="container">
             <div class="footer-content d-flex justify-content-between align-items-center">
                 <span>Copyright&copy;YourWebsite2026</span>
